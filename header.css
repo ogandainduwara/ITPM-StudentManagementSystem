@@ -1,0 +1,610 @@
+body {
+    background-color: #d6d6f5;
+    font-family: "Times New Roman";
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px #333 solid;
+    padding: 5px;
+    background-color: #ffad33;
+    border-radius: 5px;
+}
+
+.MyProfile {
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    padding: 5px;
+    color: #0033cc;
+    text-decoration-line: underline;
+}
+
+.menu {
+    margin: 1;
+    position: center;
+    padding: 1;
+    overflow: hidden;
+    background-color: #8a8a5c;
+}
+
+.manu a {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 160px;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 24px 50px;
+    text-decoration: none;
+    height: 60px;
+    font-size: 21px;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #27a542;
+    text-decoration: unerline;
+    color: #1aff1a;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    background-color: #47d147;
+    color: white;
+    text-decoration: underline
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #22913a;
+}
+
+.menu ui li {
+    list-style-type: none;
+    margin: 1;
+    position: center;
+    padding: 1;
+    background-color: #8a8a5c;
+    width: 100%
+}
+
+
+/*open header css*/
+
+.menu {
+    margin: 1;
+    position: center;
+    padding: 1;
+    overflow: hidden;
+    background-color: #8a8a5c;
+}
+
+.manu a {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 160px;
+}
+
+.die {
+    position: center;
+    padding: 1;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.socal {
+    width: 44 pixal;
+    position: left;
+    padding: 1;
+    list-style-type: none;
+    margin: 1;
+    overflow: hidden;
+}
+
+
+/*my*/
+
+div.galimgsq {
+    margin: 1 auto;
+    width: 1200px;
+    background-color: none;
+}
+
+div.galimgsq img {
+    width: 300px;
+    margin: 20px;
+    height: 200px;
+    position: center;
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+    /* For IE8 and earlier*/
+}
+
+div.galimgsq img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+.menu {
+    position: relative;
+    height: 60px;
+    background-color: #30cf53;
+}
+
+.menu li {
+    /*position :relative; */
+    list-style: none;
+    padding: 1px 2px;
+    margin: 0px;
+    text-align: center;
+}
+
+.menu ul {
+    position: absolute;
+    left: 0%;
+    background-color: #30cf53;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+}
+
+.menu ul li {
+    width: 100%;
+    color: #22913a;
+}
+
+.menu ul li a {
+    display: block;
+    text-align: center;
+    color: #22913a;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li a:hover {
+    color: blue;
+    background-color: #2cba4a;
+    text-decoration: underline;
+}
+
+.lor {
+    border-radius: 25px;
+    color: #22913a;
+}
+
+.searhform {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px #333 solid;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+    background-color: #d4e2cf;
+}
+
+.searhform label {
+    display: block;
+}
+
+.searhform input.search {
+    float: right;
+}
+
+.menu ui li {
+    list-style-type: none;
+    margin: 1;
+    position: center;
+    padding: 1;
+    background-color: #8a8a5c;
+    width: 100%
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6edd86;
+    height: 60px;
+}
+
+li {
+    float: left;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #27a542;
+    text-decoration: unerline;
+    color: #1aff1a;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: white;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #47d147;
+    color: black;
+    text-decoration: underline
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #22913a;
+}
+
+.loginform {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px #333 solid;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 30px;
+    background-color: #d4e2cf;
+}
+
+.loginform label {
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 70px;
+    grid-row-gap: 30px;
+    background-color: #d6d6f5;
+    padding: 50px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    padding: 20px 30px;
+    font-size: 30px;
+}
+
+.grid-container>td {
+    font-size: 30px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.topnav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.topnav input[type=text] {
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.bankName select[type=text] {
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.BranchName input[type=text] {
+    float: left;
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 19px;
+}
+
+.date_b input[type=datetime-local] {
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+.grid-container-btn {
+    display: grid;
+    height: 20px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 90px;
+    grid-row-gap: 80px;
+    background-color: #d6d6f5;
+    padding: 50px;
+}
+
+.grid-container-btn>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 180px;
+    font-size: 30px;
+}
+
+.imageDrop {
+    font-size: 20px;
+}
+
+.button-left {
+    background-color: #adadeb;
+    border: none;
+    color: black;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px 92px;
+    cursor: pointer;
+    border-radius: 9px;
+    display: left;
+    font-size: 25px;
+}
+
+.button-center {
+    background-color: #d6d6f5;
+    border: none;
+    color: #c1c1f0;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px 92px;
+    cursor: pointer;
+    border-radius: 9px;
+    display: center;
+    font-size: 25px;
+}
+
+.button-right {
+    background-color: #adadeb;
+    border: none;
+    color: black;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px 92px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 25px;
+    right: 5px;
+}
+
+.button-left:hover {
+    background-color: #f1f1f1;
+}
+
+.button-center:hover {
+    background-color: #d6d6f5;
+}
+
+.button-right:hover {
+    background-color: #f1f1f1;
+}
+
+div.c {
+    text-align: right;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 230px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img.icon {
+    height: 16px;
+    vertical-align: text-bottom;
+    width: 16px;
+    padding-right: 6px;
+}
+
+.column left {
+    padding: 20px 80px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 50px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    background-color: #adadeb;
+    padding: 10px;
+}
+
+.grid-container-2>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+h1.arraw {
+    font-size: 153px;
+}
+
+.r-rad {
+    font-size: 30px;
+}
+
+.BranchName input[type=email] {
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.BranchName input[type=tel] {
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+.btn_upload {
+    background-color: #adadeb;
+    border: none;
+    color: black;
+    padding: 20px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px 82px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 28px;
+    right: 5px;
+}
+
+.btn_upload_c {
+    background-color: #adadeb;
+    border: none;
+    color: #9898e6;
+    padding: 20px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px 82px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 28px;
+    right: 5px;
+}
+
+.btn_upload:hover {
+    background-color: #f1f1f1;
+}
+
+.btn_edit {
+    background-color: #adadeb;
+    border: none;
+    color: black;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px 82px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 28px;
+    right: 5px;
+}
+
+.svglast {
+    width: 400px;
+    height: 180px
+}
+
+.rectcv {
+    width: 250;
+    height: 100;
+    stroke: pink;
+    stroke-width: 5px;
+    fill-opacity: 0.1;
+    stroke-opacity: 0.9;
+}
+
+.btn_view {
+    background-color: #adadeb;
+    border: none;
+    color: black;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px 82px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-size: 28px;
+    right: 5px;
+}

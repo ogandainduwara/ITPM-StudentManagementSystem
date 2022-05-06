@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SYZYGY</title>
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+
+    <!--header html-->
+    <center>
+        <h1>
+            SYZYGY
+        </h1>
+        <h3>
+            Student Management System
+        </h3>
+    </center>
+
+    <form method="post" action="login.php" class="logout">
+        <label>
+			Log Out
+		</label>
+    </form>
+    <form method="post" action="My Profile.php" class="MyProfile">
+        <label>
+			My Profile
+		</label>
+    </form>
+    <br>
+    <hr>
+    <ul>
+        <li>
+            <a href="header.html">
+				Home
+			</a>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">
+                Scholarship
+            </a>
+            <div class="dropdown-content">
+                <a href="Apply Scholarship.html">Apply Scholarship</a>
+                <a href="Delete Scholarship Application">Delete Scholarship Application</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Student Information</a>
+            <div class="dropdown-content">
+                <a href="Student Information.html">Student Information</a>
+                <a href="Student Report.html">Student Report</a>
+                <a href="Student Inquiry.html">Student Inquiry</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Car Parking</a>
+            <div class="dropdown-content">
+                <a href="Apply for Car Parking.html">Apply for Car Parking</a>
+                <a href="Car park verification.html">Car park verification</a>
+                <a href="Delete Car Park Membership.html">Delete Car Park Membership </a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Bank Slip</a>
+            <div class="dropdown-content">
+                <a href="Upload Bank Slip.html">Upload Bank Slip</a>
+                <a href="Edit Bank Slip.html">Edit Bank Slip</a>
+                <a href="View Bank Slip.html">View Bank Slip </a>
+                <a href="Download Bank Slip.html">Download Bank Slip</a>
+                <a href="Delete Bank Slip.html"> Delete Bank Slip</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Assignment</a>
+            <div class="dropdown-content">
+                <a href="Upload Assignment.html">Upload Assignment</a>
+                <a href="Update Assignment.html">Update Assignment</a>
+                <a href="Delete Assignment.html">Delete Assignment</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">library Membership</a>
+            <div class="dropdown-content">
+                <a href="Apply library Membership.html">Apply library Membership</a>
+                <a href="Update Membership.html">Update Membership</a>
+                <a href="Generate Information.html">Generate Information</a>
+                <a href="Delete library Membership.html">Delete library Membership</a>
+            </div>
+        </li>
+    </ul>
+    <!--/header html-->
+
+
+    <div class="grid-container">
+        <div>
+            <tr>
+                <td>Delete Bank Slip </td>
+            </tr>
+        </div>
+        <div class="BranchName">
+            <input type="text" name="RollNo" id="roll" placeholder="Search..">
+        </div>
+        <div>
+            Name
+        </div>
+        <div class="BranchName">
+            <input type="text" name="cadf" id="cadf" placeholder="_ _ _ _ _ _ _ _ _ _ _ ">
+        </div>
+        <div>
+            Type
+        </div>
+        <div class="BranchName">
+            <input type="text" name="bene" id="bene" placeholder="Adobe PDF,Excel,HTML">
+        </div>
+        <div>
+            From
+        </div>
+        <div class="BranchName">
+            <input type="text" name="afar" id="afar" placeholder="Dd/mm/year">
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <form action="/action_page.php">
+            <h1>
+                <input type="radio" id="Open With" name="fav_language" value="Open With">
+                <label for="html">
+                    Open With
+                </label>
+                <br>
+                <br>
+                <br>
+                <input type="radio" id="Save File" name="fav_language" value="Save File">
+                <label for="css">
+                        Save File
+                    </label>
+                <br>
+            </h1>
+        </form>
+    </div>
+
+
+
+    <table>
+        <tr>
+            <th>
+                <button id="insert" class="button-center">insert</button>
+            </th>
+            <th>
+                <button id="read" class="button-left">Cancle</button>
+            </th>
+            <th>
+                <button id="delete" class="button-left">Ok</button>
+            </th>
+        </tr>
+    </table>
+
+    <hr>
+
+    <div class="c ">
+        <h2>Address: No.123, Nugegoda</h2>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js "></script>
+    <script src="./deltbslp.js "></script>
+
+    <script src="./deletefe.js "></script>
+
+</body>
+
+</html>
