@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/styleslogin.css" />
+
+    <script src="../js/myScriptLogin.js"></script>
+  </head>
+  <body>
+      <a href="../FirstPage&Home/FirstPage.html">
+      <img class="logo" src="images/back.png" width=100" height="100"  alt="SyZyGy">
+      </a>
+    <center>
+    <div class="login">
+      <h2>Login</h2>
+      <div class="Left-box">
+        <form action="../LogoutH/home.html" onsubmit="return validate()">
+          Student No:
+          <br />
+          <input
+            type="text"
+            id="user"
+            name="username"
+            placeholder="Student No" />
+          <br /><br />
+          Password
+          <br />
+          <input type="password" id="pwd" name="pwd" placeholder="Password" />
+          <br><br>
+          <input type="Submit" id="submit" value="Login" /><br><br>
+          <input type="reset" value="Clear">
+        </form>
+      </div>
+    </div>
+    <center>
+      <footer>
+        
+        <p style="color:black">Contact us: 011 22 22 212 | Address: No.123, Nugegoda</p>
+      </footer>
+      </center>
+  </body>
+</html>

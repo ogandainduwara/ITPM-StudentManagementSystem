@@ -1,0 +1,73 @@
+body{	
+		background-image:url("../images/background.jpg");
+		background-repeat: no-repeat;
+		margin: 0;
+		padding: 0;
+		background-size: cover;
+		font-family: Tahoma, sans-serif;
+		
+	
+}
+
+p{
+
+		color: #ffffff;
+
+}
+
+.form{
+
+		position: absolute;
+		transform: translate(-50%,-50%);
+		top: 55%;
+		left: 50%;
+		width: 300px;
+		height: 200px;
+		box-sizing: border-box;
+		background: rgba(0,0,0,0.3);
+		padding: 20px;
+		
+		
+
+}
+
+#button{
+
+		background: rgba(0,0,0,0.04);
+		border-radius: 4px;
+		border: none;
+		height: 30px;
+		width: 250px;
+}
+
+#pwd1{
+
+		
+		background: rgba(0,0,0,0.04);
+		border-radius: 2px;
+		border: none;
+		height: 25px;
+		width: 250px;
+
+}
+
+
+#sub1 {
+
+		background-color:#24a0ed;
+		color: white;
+		cursor: pointer;
+		border: none;
+		margin: 0px 0px;
+		padding: 10px;
+		width: 150px;
+		font-size: 15px;
+		font-family:Calibri;
+}
+
+#add{
+
+		background: rgba(0,0,0,0.04);
+		border-radius: 2px;
+		border: none;
+}

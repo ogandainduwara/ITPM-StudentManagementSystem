@@ -1,0 +1,67 @@
+body{
+	background-image:url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: Arial;
+}
+
+.login{
+	background-color: rgba(31,31,122,0.6);
+	position: relative;
+	height:350px;
+	width: 500px;
+	margin: 8% auto; 
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);	
+	
+}
+
+h2{
+	font-family:Arial;
+	color:#DCDCDC;
+	padding: 20px;
+	text-align: center;
+}
+
+.Left-box{
+	position: center;
+	margin: 0% 30%;
+	padding: 10px;
+	width: 180px;
+	height: 220px;
+	float: left;
+	background-color:#141452;
+	color: white;
+	
+}
+
+input[type=submit]{
+	background-color:#5c5cd6;
+	color: white;
+	cursor: pointer;
+	border: none;
+	margin: 0px 50px;
+	padding: 10px;
+	width: 80px;
+	font-size: 15px;
+}
+
+input[type=submit]:hover {
+	background-color:#9999E6;
+}
+
+input[type=reset]{
+	background-color:#FF0000;
+	color: white;
+	cursor: pointer;
+	border: none;
+	margin: 0px 50px;
+	padding: 10px;
+	width: 80px;
+	font-size: 15px;
+}
+
+input[type=reset]:hover {
+	background-color:#9999E6;
+}
