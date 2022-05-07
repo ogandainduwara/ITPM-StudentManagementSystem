@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.backimg {
+    background-image: url(../images/back.jpg);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form {
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(204, 11, 11, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.containers {
+    min-height: 20vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containers {
+    width: 500px;
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(202, 31, 31, 0.2), 0 6px 20px 0 rgba(33, 202, 84, 0.19);
+}
+
+.box {
+    width: 1000px;
+    height: 500px;
+    background: rgb(245, 245, 245);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.container table {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba((0), 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link-right {
+    display: flex;
+    justify-content: flex-end;
+}
