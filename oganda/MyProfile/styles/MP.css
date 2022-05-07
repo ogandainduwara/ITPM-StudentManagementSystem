@@ -1,0 +1,55 @@
+body{	
+		background-image:url("../images/Home.jpg");
+		background-repeat: no-repeat;
+		margin: 0;
+		padding: 0;
+		background-size: cover;
+		font-family: Tahoma, sans-serif;
+		
+	
+}
+
+.search-box{
+    float:left;
+    transform: translate(-50%,-50%) ;
+    margin-left:685px;
+    
+    margin-top:20px;
+    margin-bottom:-10px;
+    height:40px ;
+    border-radius : 40px ;
+    background: #2f3640;
+    padding:10px;
+} 
+
+.search-box:hover > .search-txt {
+    width:400px;
+    padding: 0 10px;
+}
+
+.search-btn{
+    color:#e84118;
+    float: right ;
+    width: 50px;
+    height : 20px;
+    border-radius: 40px ;
+    background: #2f3640;
+    text-align:center;
+    text-decoration: none;
+    font-family:system-ui;
+    font-weight:bold;
+}  
+
+.search-txt{
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding:10 ;
+    
+    color: white ;
+    font-size:16px ; 
+    line-height:20px ;
+    transition: 0.4s ;
+    width: 0px;
+}
